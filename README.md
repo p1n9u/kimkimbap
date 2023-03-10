@@ -31,29 +31,23 @@ npm install
 npm run build
 npm prune --production
 ```
-After installation finishes follow configuration instructions then run `npm run start` to start the bot.
+- After installation finishes follow configuration instructions then run `npm run start` to start the bot.
 
 ## 📝 Register Service
 
 ### Register 
 
-base path : project root directory kimkimbap
 ```bash
-cd dist
-chmod +x index.js
-cd ..
 sudo systemctl link ~/kimkimbap/kimkimbap.service # pwd conmand
 sudo systemctl start kimkimbap
 sudo systemctl enable kimkimbap
 ```
-- Add the code below to the top of the `index.js` file.
-```jsx
-#!/home/(username)/.nvm/versions/node/v16.11.0/bin/node
-```
+- You need to modifiy path in `kimkimbap.service` file.
 
 ### Display Log
 ```bash
-journalctl -u kimkimbap
+journalctl -u kimkimbap # [--since=today] [--since "yyyy-mm-dd 00:00:00"] or
+journalctl -u kimkimbap -f # new log only
 # Result
 systemd[1]: Started A Discord Music Bot KimKimbap.
 ...
