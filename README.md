@@ -1,10 +1,12 @@
 <img src="https://badgen.net/badge/icon/typescript?icon=typescript&label">
 
 # KimKimbap (Discord Music Bot)
-
+![profile](img/kimkimbap.png)   
 > KimKimbap uses template from [Rawon](https://github.com/Clytage/rawon)   
 > The only music play version of Rawon `3.2.0`, remove moderation commands.   
 > A Discord Music Bot built with TypeScript, discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
+- command   
+   ![command](img/command.png)   
 
 ## Requirements, Dev Settings
 
