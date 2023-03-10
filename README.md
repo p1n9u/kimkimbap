@@ -3,6 +3,7 @@
 # KimKimbap (Discord Music Bot)
 
 > KimKimbap uses template from [Rawon](https://github.com/Clytage/rawon)   
+> The only music play version of Rawon `3.2.0`, remove moderation commands.   
 > A Discord Music Bot built with TypeScript, discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
 
 ## Requirements, Dev Settings
@@ -24,7 +25,7 @@ git clone https://github.com/p1n9u/kimkimbap.git
 
 cd kimkimbap
 
-touch .env # copy contents, you can get form Rawon
+touch .env # copy contents, you can get from original Rawon Repo above link.
 
 npm install
 npm run build
